@@ -2,7 +2,7 @@ using Chronicle.Context;
 
 namespace Chronicle.Formatting
 {
-    public sealed class DefaultLogFormatter : ILogFormatter
+    public class DefaultLogFormatter : ILogFormatter
     {
         private const string DateFormat = "yyyy-MM-dd HH:mm:ss.fff";
         private const string MessageFormat = "{0}|{1}|{2}|{3}";
